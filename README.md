@@ -1,63 +1,40 @@
-# Sujeito Pizza
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**Sobre o Projeto:** Um projeto completo para uma pizzaria.
+## Getting Started
 
-- [x] Cadastrar um novo usuário.
-- [x] Logar um usuário.
-- [x] Verificar autenticação para as rotas privadas.
-- [x] Mostrar detalhes do usuário logado.
-- [x] Criar e listar categorias.
-- [x] Criar produtos e listar produtos de uma categoria específica.
-- [x] Abrir uma mesa (order) e poder fechá-la.
-- [x] Adicionar itens a uma mesa e também poder retirar os itens.
-- [x] Enviar pedido e retirar do rascunho.
-- [x] Listar todos os pedidos que estão em rascunho (draft).
-- [x] Listar todos os pedidos que estão em aberto (order).
-- [x] Poder acessar todos os detalhes de uma mesa com pedidos dela.
-- [x] Concluir pedido.
-
-Figma: <https://www.figma.com/file/yTPA50bLeQdJOCrg5sAOqU/Pizzaria-Sujeito?type=design&node-id=0-1&mode=design&t=57Vc9NzVI1sD4Hvg-0>
-
-Project link: no yet available!
-
-🛠 Technologies
-
-The following tools were used in building the project:
-
-- [NEXTJS](https://nextjs.org/docs)
-- [TYPESCRIPT](https://www.typescriptlang.org/docs/)
-- [Node.Js](https://nodejs.org/api/all.html)
-- [PostgresSQL](https://www.postgresql.org/)
-- [Insomnia](https://docs.insomnia.rest/)
-- [Prisma](https://www.prisma.io/docs)
-
----
-
-Before starting, you will need to have the following tools installed on your machine:
-
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Furthermore, it is good to have an editor to work with the code like[VSCode](https://code.visualstudio.com/)
-
-Running the project🎲
+First, run the development server:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/deniseschirmer/sujeitoPizza
-
-# Access the project folder in terminal/cmd
-
-# Install dependencies
-$ yarn
+npm run dev
 # or
-$ npm install
-
-# Run the application in development mode
-$ yarn dev
+yarn dev
 # or
-$ npm run dev
-
+pnpm dev
+# or
+bun dev
 ```
 
-Made with love by: Denise Schirmer
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-[See my linkedIn](https://www.linkedin.com/in/denise-s-lima-schirmer-9702661ba/)
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
